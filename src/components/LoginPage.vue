@@ -24,7 +24,7 @@ export default {
       let users = {'id':'1111','pass':'1111'}
       if(this.id == users.id && this.pass == users.pass) {
         localStorage.setItem('loginInfo', JSON.stringify(users));
-        location.href = '/main';
+        location.href = '/#/main';
       } else {
         alert('아이디 및 비밀번호가 틀립니다.');
       }

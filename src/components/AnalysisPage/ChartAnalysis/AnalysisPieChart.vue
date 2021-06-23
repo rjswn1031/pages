@@ -12,7 +12,7 @@ export default {
     data(){
         return{
             labels: [],
-            nowMonData: [],
+            nowMonData: [0],
         }
     },
     mounted() {
